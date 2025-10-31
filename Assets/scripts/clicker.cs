@@ -71,15 +71,6 @@ using UnityEngine.SceneManagement;
         - no text 
 */
 
-/* category theory ??? -> coding (smh)
-    /loop hero
-    lone fungus
-    antonblast
-    shovel knight dig
-    talos 2
-    blasphemous 2
-*/ 
-
 public class clicker : MonoBehaviour
 {
     public static gameSave save;
