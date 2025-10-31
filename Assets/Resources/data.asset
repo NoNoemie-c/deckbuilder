@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98cfd323c3a044fdbf695300f3c70ed, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  AnimationsName:
+  - appearing
+  - bufferBehaviour
+  - cyclicBehaviour
+  - cyclicBehaviourComplete
+  - destroyed
+  - killerBehaviour
+  - eaterBehaviour
+  - giveBehaviour
+  - diceBehaviour
+  - selected
+  - spawnerBehaviour
+  - unselected
+  - feedback
+  - rotating
+  - moving
+  - giveCoins
+  - cranks
+  - '!cranks'
+  - movingTool
+  - comboBehaviour
+  - diceBehaviour0
+  - electric
+  - spawned
+  - eaten
+  - perma
+  Animations:
+  - {fileID: 11400000, guid: 66cb33c4888584581b2086a73bd0b9e0, type: 2}
+  - {fileID: 11400000, guid: a5a03331fd1f94832bdd08e16b37f0cf, type: 2}
+  - {fileID: 11400000, guid: ecf3ba08f82174ba7a0b7f4c8fff2cba, type: 2}
+  - {fileID: 11400000, guid: 781e96231feb84f2ba00f19b80c4f259, type: 2}
+  - {fileID: 11400000, guid: b4c30c37fd90e4cbab0ab8956d5ebde4, type: 2}
+  - {fileID: 11400000, guid: fa7119936933d48baacb79323687b0d4, type: 2}
+  - {fileID: 11400000, guid: ddf0b87b9c1c3471d9ef69a5e6420147, type: 2}
+  - {fileID: 11400000, guid: 58ba2f5ea07254184aa430b7d42e916c, type: 2}
+  - {fileID: 11400000, guid: d15a1e4772c1d4d90b1764dc022478f6, type: 2}
+  - {fileID: 11400000, guid: 038bb3e550c5448faa9cba7321cbd1a9, type: 2}
+  - {fileID: 11400000, guid: 8c1d1518dbd07436f92c4b15ee22b48f, type: 2}
+  - {fileID: 11400000, guid: b9a2fddd1dbbc4928b3474484092a231, type: 2}
+  - {fileID: 11400000, guid: cfd03705be59346d6a01fe0dbf18b6d8, type: 2}
+  - {fileID: 11400000, guid: af1a39963b54f44d1a89a5567eb3fb0e, type: 2}
+  - {fileID: 11400000, guid: 0b731093707cc4759b4e63e4abf957a0, type: 2}
+  - {fileID: 11400000, guid: de381a99d9f4b4b6fbb55117a54904f6, type: 2}
+  - {fileID: 11400000, guid: 066327140f7f0499ca766d02683be6f9, type: 2}
+  - {fileID: 11400000, guid: 012b888ac8686419bb8d419f18ac997a, type: 2}
+  - {fileID: 11400000, guid: 7700b826045834d3d842d350d197ff84, type: 2}
+  - {fileID: 11400000, guid: 68f6dcce643554912b2920d608303350, type: 2}
+  - {fileID: 11400000, guid: 26cda47cff98049ee9dcf789e4395555, type: 2}
+  - {fileID: 11400000, guid: 8a993d6b4236442eea994ce14347edc4, type: 2}
+  - {fileID: 11400000, guid: 3f5ee654b6bdb428ab9ba0c51cf00669, type: 2}
+  - {fileID: 11400000, guid: b9440db16f46245058e4f4de2f33e53e, type: 2}
+  - {fileID: 11400000, guid: 298005a8f7beb4f2fae98c955811cdd7, type: 2}
+  SoundsName:
+  - '!cranks'
+  - animal
+  - appFlash
+  - buff
+  - click
+  - current
+  - cycleComplete
+  - eat
+  - enoughcranks
+  - gainCoins
+  - giveCoins
+  - giveCranks
+  - infowindowNorm
+  - infowindowSpe
+  - move
+  - permacoins
+  - permacranks
+  - powered
+  - remove
+  - rent
+  - shopRollEnd
+  - spawn
+  - place
+  - error
+  Sounds:
+  - {fileID: 11400000, guid: b14d8295a1bc141b6a5c8c63862fe187, type: 2}
+  - {fileID: 11400000, guid: e8228c29188f441a6aced4b969b3a8a1, type: 2}
+  - {fileID: 11400000, guid: d62f0e64378e9474388ce39c604b87ad, type: 2}
+  - {fileID: 11400000, guid: cae812c191f404ef5886c8bc8921bb15, type: 2}
+  - {fileID: 11400000, guid: ad265b9e9105548daa30a48e5a9b399a, type: 2}
+  - {fileID: 11400000, guid: 1e4a56b945be249b2955304499299cc2, type: 2}
+  - {fileID: 11400000, guid: 0551bf70dcf524da2bb4fde9aef087dd, type: 2}
+  - {fileID: 11400000, guid: 07d20bba24a7649c0b1af08b1c6f4c71, type: 2}
+  - {fileID: 11400000, guid: 0086bbd2c5b4c448b94bb4a25118ff7d, type: 2}
+  - {fileID: 11400000, guid: 91b610132a5b04c358a3ec127ac7a7c4, type: 2}
+  - {fileID: 11400000, guid: f14199e0686af48f68972434c0d726f2, type: 2}
+  - {fileID: 11400000, guid: b65cebd5e459245919d058cf93dc2ae9, type: 2}
+  - {fileID: 11400000, guid: 31d41e1dadfc1459eac429f18a9d6751, type: 2}
+  - {fileID: 11400000, guid: 0c38dea569874428297976e43460a1a3, type: 2}
+  - {fileID: 11400000, guid: 840c6007464894570b2263005c6a7ed0, type: 2}
+  - {fileID: 11400000, guid: eef810839422c4e2fa7b012a34ec34d9, type: 2}
+  - {fileID: 11400000, guid: dabae6115f9b041b4a73f2c6c4bf2b7a, type: 2}
+  - {fileID: 11400000, guid: 6a639f4cde6864cbe8640481d671f296, type: 2}
+  - {fileID: 11400000, guid: f728722edabc74386954686f193a0558, type: 2}
+  - {fileID: 11400000, guid: b0d2f760b31764f22a106ead1fa53b88, type: 2}
+  - {fileID: 11400000, guid: 9e549a1687cab4cc7be4d44b2614cc78, type: 2}
+  - {fileID: 11400000, guid: 776ebae13f1c447fea33f166d14d9e40, type: 2}
+  - {fileID: 11400000, guid: 61f907c75d21440e49241e20124bdacd, type: 2}
+  - {fileID: 11400000, guid: 534075af0b9454382838f1edecce8575, type: 2}
+  ColorsName:
+  - permanentCoins
+  - permanentCranks
+  - coins
+  - cranks
+  - movers
+  - removals
+  - rerolls
+  Colors:
+  - {r: 0.9686275, g: 0.9215687, b: 0.003921569, a: 1}
+  - {r: 1, g: 0.39156628, b: 0, a: 1}
+  - {r: 0.76470596, g: 0.72156864, b: 0, a: 1}
+  - {r: 0.67058825, g: 0.3803922, b: 0.10980393, a: 1}
+  - {r: 0.13333334, g: 0.25490198, b: 0.7725491, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.18823531, g: 0.7176471, b: 0.078431375, a: 1}
+  AllPacks:
+  - animal
+  - casino
+  - coin
+  - component
+  - electric
+  - fruits
+  - games
+  - industrial
+  - math
+  - mechanic
+  - null
+  - stone
+  - terrain
+  - terrains
+  - time
+  RerollColor: {r: 0.21568628, g: 0.53333336, b: 0.15294118, a: 0.5019608}
+  SkipColor: {r: 1, g: 0.2, b: 0, a: 0.5019608}
+  rarityNames:
+  - common
+  - uncommon
+  - rare
+  - very rare
+  - legendary
+  - unique
+  rarityColors:
+  - {r: 0.21271598, g: 1, b: 0.19339621, a: 1}
+  - {r: 0.48273405, g: 0.9056604, b: 0.88502985, a: 1}
+  - {r: 0.18427375, g: 0.29679498, b: 0.9528302, a: 1}
+  - {r: 0.6640753, g: 0.33882165, b: 0.8867924, a: 1}
+  - {r: 0.90588236, g: 0.25882354, b: 0.20784314, a: 1}
+  - {r: 0.9528302, g: 0.6780901, b: 0.24719654, a: 1}
+  MaxRarity: 6

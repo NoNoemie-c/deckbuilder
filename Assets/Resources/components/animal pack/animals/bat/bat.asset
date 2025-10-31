@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: bat
+  m_EditorClassIdentifier: 
+  name: bat
+  description: '- When activated, gives +{the sum of the adjacent dices'' faces}.
+    (doubles count multiple times).
+
+    - When clicked or spawned, a random face
+    is picked in [5].'
+  coin: 3
+  symbol: {fileID: 21300000, guid: efc59e437589d4467bd715341aefa0c3, type: 3}
+  pack:
+  - casino
+  - animal
+  packTexture: {fileID: 0}
+  tags:
+  - animal
+  - die
+  rarity: 6
+  Behaviours:
+  - {fileID: 11400000, guid: fe7b6a1ed572f466598bab2d2c07bfd6, type: 2}
+  - {fileID: 11400000, guid: e57cd3013f12546fc9e5bd5c64113832, type: 2}
+  PreTurnBehaviours:
+  - {fileID: 11400000, guid: 0be1effd0b13a4650b84ba7a5d876831, type: 2}
+  PostTurnBehaviours:
+  - {fileID: 11400000, guid: 8685b35e0e53a42d0a4c15d3b45742a0, type: 2}
+  crank: 0
+  strength: 3
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

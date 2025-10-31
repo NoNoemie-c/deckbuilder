@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: polyvalent
+  m_EditorClassIdentifier: 
+  Lock: 1
+  name: polyvalent
+  description: '- When activated, gives x{the amount of different packs of adjacent
+    components (ignoring ''all packs'' components)}.'
+  coin: 2
+  symbol: {fileID: 21300000, guid: 7962d7a696a304f50a1990963654b828, type: 3}
+  pack:
+  - animal
+  - casino
+  - coin
+  - component
+  - electric
+  - fruits
+  - games
+  - industrial
+  - math
+  - mechanic
+  - null
+  - stone
+  - terrain
+  - terrains
+  - time
+  packTexture: {fileID: 21300000, guid: 902af849760534172bc5a7069912fe22, type: 3}
+  tags: []
+  rarity: 5
+  Behaviours:
+  - {fileID: 11400000, guid: bb799a02f42974d7b8f26633e5ed9f63, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  strength: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

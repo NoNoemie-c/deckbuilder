@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: radioactive grower
+  m_EditorClassIdentifier: 
+  name: radioactive grower
+  description: '- When activated, all adjacent cores are destroyed. All adjacent
+    trees, seeds, flowers and fruits advance of one turn in their cycles per core
+    destroyed this way.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 580f020eefcf94960a2b30171e949458, type: 3}
+  pack:
+  - fruits
+  tags: []
+  rarity: 4
+  Behaviours:
+  - {fileID: 11400000, guid: 161b90c14c6e142d8bb492032f9db4c5, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

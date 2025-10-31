@@ -1,0 +1,90 @@
+{
+    "name": "inGame",
+    "maps": [
+        {
+            "name": "keyBoard",
+            "id": "9a37c5d6-732c-47e3-8804-cb1f37613193",
+            "actions": [
+                {
+                    "name": "LClick",
+                    "type": "Button",
+                    "id": "3471ae75-d752-4afd-b7c0-3d4d59a8bc20",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RClick",
+                    "type": "Button",
+                    "id": "568de606-ddde-4aec-a427-d07251816c57",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "WClick",
+                    "type": "Button",
+                    "id": "ca4eb9a8-841d-4080-83c2-b327389b12b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "mouse",
+                    "type": "PassThrough",
+                    "id": "bdba56d1-1d10-49c1-bf56-4cb6a208ced4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ed36feb0-d648-4ccf-99fb-af375c5176e3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f7f4388-c4f7-4adc-8c7d-91c74dfeac86",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e6b48367-e0d6-4611-9c5c-2e21e6a3fb6e",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5d54e98-5f28-4a68-8ec3-be1c7e745ba2",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

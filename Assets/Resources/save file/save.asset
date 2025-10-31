@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ca7c14ca8d34e5387247ae7bfb1bc0, type: 3}
+  m_Name: save
+  m_EditorClassIdentifier: 
+  progress: 1
+  unlocks:
+  - {fileID: 11400000, guid: b71a9bb37ac5f476a99c97bb026f4fce, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 5dab19d77515b445691b629751ca7f65, type: 2}
+  - {fileID: 11400000, guid: 7c9847dcec9ea42c99604569b29359b7, type: 2}
+  - {fileID: 11400000, guid: 1824df9b0e113436499ebc8d0ee21bd1, type: 2}
+  - {fileID: 11400000, guid: b366c9589e2204311b5e7776e433138a, type: 2}
+  - {fileID: 11400000, guid: 22dc7dd18f777448db6692095cc8ea88, type: 2}
+  - {fileID: 11400000, guid: b13ecd88c28824ae9925a0a30f8feab4, type: 2}
+  - {fileID: 11400000, guid: c0a10aab9f9414f49b81b4f09d3ace3a, type: 2}
+  - {fileID: 11400000, guid: 57ef4c3cddb6e4c3499dabf15e748519, type: 2}
+  - {fileID: 11400000, guid: e9908b404d7384faf80922d0922fc0ea, type: 2}
+  - {fileID: 11400000, guid: fef60fe0ba00c45a0ab8b85bd324bb0e, type: 2}
+  rents:
+  - InnerList:
+    - {x: 10, y: 5}
+    - {x: 30, y: 5}
+    - {x: 60, y: 5}
+    - {x: 100, y: 5}
+    - {x: 200, y: 5}
+    - {x: 400, y: 5}
+    - {x: 600, y: 5}
+    - {x: 1000, y: 5}
+    - {x: 1500, y: 5}
+  - InnerList:
+    - {x: 0, y: 1}
+  - InnerList: []
+  - InnerList:
+    - {x: 10, y: 5}
+    - {x: 25, y: 5}
+    - {x: 45, y: 5}
+    - {x: 100, y: 5}
+    - {x: 150, y: 5}
+    - {x: 250, y: 5}
+    - {x: 500, y: 5}
+    - {x: 1000, y: 5}
+  - InnerList:
+    - {x: 10, y: 5}
+    - {x: 40, y: 5}
+    - {x: 80, y: 5}
+    - {x: 150, y: 5}
+    - {x: 250, y: 5}
+    - {x: 500, y: 5}
+    - {x: 800, y: 5}
+    - {x: 1200, y: 5}
+    - {x: 1700, y: 5}
+  - InnerList:
+    - {x: 10, y: 5}
+    - {x: 25, y: 5}
+    - {x: 50, y: 5}
+    - {x: 110, y: 5}
+    - {x: 175, y: 5}
+    - {x: 300, y: 5}
+    - {x: 600, y: 5}
+    - {x: 1100, y: 5}
+    - {x: 1600, y: 5}
+    - {x: 2300, y: 5}
+    - {x: 3600, y: 5}
+  - InnerList:
+    - {x: 4, y: 2}
+    - {x: 8, y: 2}
+    - {x: 15, y: 2}
+    - {x: 25, y: 2}
+    - {x: 40, y: 2}
+    - {x: 500, y: 10}
+    - {x: 100, y: 2}
+    - {x: 125, y: 2}
+    - {x: 150, y: 2}
+    - {x: 175, y: 2}
+    - {x: 3000, y: 20}
+  - InnerList:
+    - {x: 100, y: 20}
+    - {x: 500, y: 20}
+    - {x: 1000, y: 20}
+    - {x: 3500, y: 20}
+  - InnerList:
+    - {x: 1000, y: 30}
+    - {x: 5000, y: 30}
+  - InnerList:
+    - {x: 5, y: 5}
+    - {x: 10, y: 5}
+    - {x: 20, y: 5}
+    - {x: 50, y: 5}
+    - {x: 90, y: 5}
+    - {x: 150, y: 5}
+    - {x: 250, y: 5}
+    - {x: 500, y: 6}
+    - {x: 750, y: 6}
+    - {x: 1000, y: 6}
+    - {x: 2000, y: 6}
+    - {x: 4000, y: 6}
+  - InnerList:
+    - {x: 5, y: 5}
+    - {x: 10, y: 5}
+    - {x: 25, y: 5}
+    - {x: 60, y: 5}
+    - {x: 100, y: 5}
+    - {x: 150, y: 5}
+    - {x: 300, y: 6}
+    - {x: 600, y: 6}
+    - {x: 1000, y: 6}
+    - {x: 2000, y: 7}
+    - {x: 4000, y: 7}
+    - {x: 8000, y: 7}
+    - {x: 16000, y: 8}
+  - InnerList:
+    - {x: 5, y: 6}
+    - {x: 10, y: 6}
+    - {x: 25, y: 6}
+    - {x: 60, y: 6}
+    - {x: 100, y: 6}
+    - {x: 150, y: 6}
+    - {x: 300, y: 6}
+    - {x: 600, y: 6}
+    - {x: 1000, y: 6}
+    - {x: 2000, y: 7}
+    - {x: 4000, y: 7}
+    - {x: 8000, y: 7}
+    - {x: 16000, y: 8}
+    - {x: 30000, y: 8}
+    - {x: 50000, y: 9}
+  terrainThreshold: 7
+  Tuto2ex: 0
+  startPoses:
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 4, y: 3}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 4, y: 3}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 4, y: 3}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 4, y: 3}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 1, y: 2}
+    - {x: 1, y: 3}
+  - InnerList: []
+  - InnerList: []
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 1, y: 2}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 4, y: 3}
+    - {x: 2, y: 3}
+  - InnerList:
+    - {x: 1, y: 1}
+    - {x: 0, y: 3}
+  - InnerList: []
+  - InnerList:
+    - {x: 0, y: 0}
+  starters:
+  - InnerList:
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+    - {fileID: 11400000, guid: 526d302d3bc194e188c28d1f95276537, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 645968d1748c24ad2945106c49d999ac, type: 2}
+    - {fileID: 11400000, guid: 7c01083a8fe8840568269c44a7002a7d, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 73aa82ec47f524995b23f8ec1301aa47, type: 2}
+    - {fileID: 11400000, guid: 8391cda032c3549889242ca78427d7c0, type: 2}
+    - {fileID: 11400000, guid: a03475a570c9d4901b852e64b32fc3e5, type: 2}
+  - InnerList: []
+  - InnerList: []
+  - InnerList:
+    - {fileID: 11400000, guid: aab5ab9ea854343368f5ccc922e7a69d, type: 2}
+    - {fileID: 11400000, guid: aab5ab9ea854343368f5ccc922e7a69d, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 37ecd8592fd5f4752995a0e22cb09625, type: 2}
+    - {fileID: 11400000, guid: 37ecd8592fd5f4752995a0e22cb09625, type: 2}
+    - {fileID: 11400000, guid: c2cb0a935921040309201758a7ffca83, type: 2}
+  - InnerList:
+    - {fileID: 11400000, guid: 4a2399d324c134dbbb22cf2ba16cd708, type: 2}
+    - {fileID: 11400000, guid: 8acca77693a264c16bae2a3b6802ec91, type: 2}
+  - InnerList: []
+  - InnerList:
+    - {fileID: 11400000, guid: 8db7ec38c074945ddbc36423247ae772, type: 2}
+  destroys:
+  - InnerList:
+    - {x: 5, y: 20}
+    - {x: 5, y: 20}
+  - InnerList:
+    - {x: 3, y: 2}
+    - {x: 5, y: 20}
+  - InnerList:
+    - {x: 3, y: 2}
+    - {x: 5, y: 20}
+  - InnerList:
+    - {x: 5, y: 25}
+  - InnerList:
+    - {x: 10, y: 25}
+  - InnerList:
+    - {x: 5, y: 20}
+    - {x: 5, y: 20}
+  - InnerList:
+    - {x: 2, y: 20}
+    - {x: 5, y: 8}
+  - InnerList:
+    - {x: 5, y: 20}
+    - {x: 5, y: 20}
+    - {x: 5, y: 20}
+  - InnerList:
+    - {x: 10, y: 30}
+    - {x: 5, y: 15}
+  - InnerList:
+    - {x: 10, y: 25}
+    - {x: 5, y: 11}
+    - {x: 3, y: 6}
+  - InnerList:
+    - {x: 10, y: 25}
+    - {x: 5, y: 17}
+    - {x: 5, y: 12}
+  - InnerList:
+    - {x: 10, y: 24}
+    - {x: 5, y: 12}
+    - {x: 5, y: 12}
+    - {x: 3, y: 6}
+    - {x: 3, y: 6}
+    - {x: 1, y: 6}
+    - {x: 1, y: 7}
+    - {x: 1, y: 7}
+    - {x: 1, y: 8}
+    - {x: 1, y: 8}

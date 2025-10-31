@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: miner
+  m_EditorClassIdentifier: 
+  name: miner
+  description: '- When activated, all adjacent small ores, medium ores and big ores
+    are destroyed. gives +10 per small ore, medium ore and big ore destroyed this
+    way.'
+  coin: 2
+  symbol: {fileID: 21300000, guid: 2221e73e00b5a4d189c297abd3a472cc, type: 3}
+  pack: []
+  tags: []
+  rarity: 1
+  Behaviours:
+  - {fileID: 11400000, guid: c2e7902f797f746e5bf5f0a40e8c483a, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

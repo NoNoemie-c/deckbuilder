@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84d70a7826db4bc390773c7d0c9dfc7, type: 3}
+  m_Name: lake
+  m_EditorClassIdentifier: 
+  name: lake
+  description: '* iremovable
+
+    * Non-superposable
+
+    - (0 / 10) : all immediately
+    adjacent components are pushed away.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 6db6deef698ab45fb98d3d915a500792, type: 3}
+  pack:
+  - terrains
+  packTexture: {fileID: 0}
+  tags:
+  - lake
+  rarity: 0
+  Behaviours:
+  - {fileID: 11400000, guid: d357c515d8b4c43cdb0a39432be1e258, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  strength: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []
+  probability: 0.2
+  removable: 1
+  superposable: 0
+  localMultiplier: 1
+  color: {r: 0.4669811, g: 0.8014243, b: 1, a: 0.3921569}

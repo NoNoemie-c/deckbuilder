@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: double broadcaster
+  m_EditorClassIdentifier: 
+  name: double broadcaster
+  description: '- When activated, if this component''s is worth at least x2 its coin
+    production, all adjacent components give x2.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 33eca0d2a11094f368601e2b9892ffe6, type: 3}
+  pack: []
+  tags: []
+  rarity: 1
+  Behaviours:
+  - {fileID: 11400000, guid: fa4276b11bc1a477aa950190bc05c25c, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

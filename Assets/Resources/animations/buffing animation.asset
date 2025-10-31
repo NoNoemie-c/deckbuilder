@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28deb2b640d684d1dbc874983af1004f, type: 3}
+  m_Name: buffing animation
+  m_EditorClassIdentifier: 
+  sound: {fileID: 11400000, guid: cae812c191f404ef5886c8bc8921bb15, type: 2}
+  xSizeDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  xSizeCoef: 0
+  ySizeDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ySizeCoef: 0
+  xPositionDistorsion:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 12.211398
+      outSlope: 12.211398
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.15407406
+    - serializedVersion: 3
+      time: 0.125
+      value: 1.0000455
+      inSlope: 0.011148165
+      outSlope: 0.011148165
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.245926
+      outWeight: 0.073648214
+    - serializedVersion: 3
+      time: 0.25
+      value: -0.00018100813
+      inSlope: -13.883721
+      outSlope: -13.883721
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.12740755
+      outWeight: 0.12985605
+    - serializedVersion: 3
+      time: 0.375
+      value: -1
+      inSlope: -0.013851077
+      outSlope: -0.013851077
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21079177
+    - serializedVersion: 3
+      time: 0.5
+      value: 0
+      inSlope: 11.927757
+      outSlope: 11.927757
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14814854
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  xPositionCoef: 50
+  yPositionDistorsion:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0130875865
+      outSlope: 0.0130875865
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.066389605
+      value: -0.65349925
+      inSlope: 9.352238
+      outSlope: 9.352238
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 1
+      inSlope: 0.008982964
+      outSlope: 0.008982964
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5970707
+    - serializedVersion: 3
+      time: 0.5
+      value: -1
+      inSlope: 0.07753506
+      outSlope: 0.07753506
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.41409013
+    - serializedVersion: 3
+      time: 0.725
+      value: 1
+      inSlope: -0.038200617
+      outSlope: -0.038200617
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9338501
+      value: -0.70890963
+      inSlope: -7.9601817
+      outSlope: -7.9601817
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.0014135769
+      outSlope: -0.0014135769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.454885
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yPositionCoef: 50
+  rotationDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationCoef: -0
+  RColorDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RColorCoef: 1
+  GColorCoef: 1
+  BColorCoef: 1
+  AColorDistorsion:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AColorCoef: 1
+  reverse: 0
+  targetImages: 0
+  clock: 0
+  currentTime: 1
+  previousTime: 0

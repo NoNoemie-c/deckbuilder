@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99c165967b5d4d619d408fc51c355c2, type: 3}
+  m_Name: monke eater behaviour
+  m_EditorClassIdentifier: 
+  triggerAnim: 0
+  isActive: 1
+  activateOnPreTurn: 0
+  activateOnPostTurn: 0
+  possibilities:
+  - {fileID: 11400000, guid: 939c914ab55284e7087bccdf2b620c62, type: 2}
+  - {fileID: 11400000, guid: 5dce7a151389e4794856febf83104ed4, type: 2}
+  - {fileID: 11400000, guid: 3dc99a34e32fc45b2914423db22c416e, type: 2}
+  - {fileID: 11400000, guid: faeebe2058e6d4ed2bcfebd19eec1995, type: 2}
+  - {fileID: 11400000, guid: 6ad2bcd2fdefd48f7a81b6b1b7992f6a, type: 2}
+  - {fileID: 11400000, guid: 56d8e05cd1fc9464ebf929adace859c6, type: 2}
+  - {fileID: 11400000, guid: 7aa1eef3a1aa8402c9f70af4b643e326, type: 2}
+  - {fileID: 11400000, guid: 70d83fe897ac242729e540f1234570d0, type: 2}
+  - {fileID: 0}
+  adjacencyRequirement: 1
+  localPermanentUpgrade: 0
+  localIncreaser: 0
+  localMultiplier: 1
+  localBehavioursToTrigger: []
+  targetIncreaser: 0
+  targetMultiplier: 1

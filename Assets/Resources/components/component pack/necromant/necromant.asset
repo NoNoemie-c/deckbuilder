@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: necromant
+  m_EditorClassIdentifier: 
+  name: necromant
+  description: '- When activated, destroys itself.
+
+    - When destroyed, all adjacent
+    components gain "- When destroyed, this component loses this action, and a copy
+    of this component is spawned in an adjacent empty space."'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 0e0b71ff235614b2c9a1cae6564bfa19, type: 3}
+  pack:
+  - null
+  tags: []
+  rarity: 5
+  Behaviours:
+  - {fileID: 11400000, guid: f066aab44ea4545bead8b6a6818ada0d, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours:
+  - {fileID: 11400000, guid: 4a274044b81664ac69289cc5d6e95e14, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: telescope
+  m_EditorClassIdentifier: 
+  name: telescope
+  description: '- When activated, its cycle advances of one turn.
+
+    * (0 / 4)
+    : all adjacent components are adjacent to the entire grid.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: b1908143b4a774f7fbedcaf0c5d3f73f, type: 3}
+  pack: []
+  tags: []
+  rarity: 4
+  Behaviours:
+  - {fileID: 11400000, guid: acaba183d33df411ebaac444e9cef8b6, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

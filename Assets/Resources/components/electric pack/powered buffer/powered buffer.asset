@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: powered buffer
+  m_EditorClassIdentifier: 
+  name: powered buffer
+  description: '- When activated, all adjacent powered components give x2.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 18211cddb649341b4b6fcc9dd0d9e649, type: 3}
+  pack:
+  - math
+  tags: []
+  rarity: 3
+  Behaviours:
+  - {fileID: 11400000, guid: bdc5e5fdf53a14948b71552469188289, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

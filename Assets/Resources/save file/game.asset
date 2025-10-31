@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7d1f0193f7e4652896d662f37a7c56, type: 3}
+  m_Name: game
+  m_EditorClassIdentifier: 
+  current:
+  - {fileID: 11400000, guid: b71a9bb37ac5f476a99c97bb026f4fce, type: 2}
+  Current:
+  - coin
+  coins: 9
+  movers: 3
+  rerolls: 2
+  removes: 2
+  highScore: 4
+  turns: 2
+  actual: 0
+  destroyId: 0
+  rent:
+  - {x: 10, y: 5}
+  - {x: 30, y: 5}
+  - {x: 60, y: 5}
+  - {x: 100, y: 5}
+  - {x: 200, y: 5}
+  - {x: 400, y: 5}
+  - {x: 600, y: 5}
+  - {x: 1000, y: 5}
+  - {x: 1500, y: 5}
+  destroys:
+  - {x: 5, y: 20}
+  - {x: 5, y: 20}
+  historicCoin:
+  - {x: 4, y: 10}
+  - {x: 9, y: 10}
+  data: "components:{\n    0:null;\n    1:null;\n    2:null;\n    3:null;\n    4:null;\n   
+    5:null;\n    6:{\n        name:temporary money;\n        description:^- when
+    clicked, destroys itself.\xA8;\n        crank:0;\n        coin:2;\n        symbol:temporary
+    money;\n        pack:{\n            0:coin;\n        };\n        tags:{\n           
+    0:temporary money;\n        };\n        packTexture:temporary money;\n       
+    rarity:3;\n        behaviours:{\n            preTurn:{\n            };\n           
+    turn:{\n                0(specialBehaviour):{\n                    name:temporary
+    money behaviour;\n                    isActive:True;\n                    triggerAnim:True;\n                   
+    isTerrain:False;\n                    Name:destroy;\n                    adjacencyRequirement:True;\n                   
+    var1:0;\n                    var2:null;\n                };\n            };\n           
+    postTurn:{\n            };\n        };\n        conductive:False;\n        electricGenerator:False;\n       
+    electricBehaviours:{\n        };\n        coinsOnSpawn:0;\n        cranksOnSpawn:0;\n       
+    spawnBehaviours:{\n        };\n        coinOnDestroy:0;\n        deathBehaviours:{\n       
+    };\n        rotation:0;\n    };\n    7:null;\n    8:null;\n    9:null;\n    10:null;\n   
+    11:null;\n    12:null;\n    13:null;\n    14:null;\n    15:null;\n    16:null;\n   
+    17:null;\n    18:{\n        name:coin component;\n        description:^\xA8;\n       
+    crank:0;\n        coin:1;\n        symbol:coin component;\n        pack:{\n           
+    0:coin;\n        };\n        tags:{\n            0:coin component;\n        };\n       
+    packTexture:coin component;\n        rarity:0;\n        behaviours:{\n           
+    preTurn:{\n            };\n            turn:{\n            };\n            postTurn:{\n           
+    };\n        };\n        conductive:False;\n        electricGenerator:False;\n       
+    electricBehaviours:{\n        };\n        coinsOnSpawn:0;\n        cranksOnSpawn:0;\n       
+    spawnBehaviours:{\n        };\n        coinOnDestroy:0;\n        deathBehaviours:{\n       
+    };\n        rotation:0;\n    };\n    19:null;\n    20:null;\n    21:null;\n   
+    22:null;\n    23:{\n        name:temporary money;\n        description:^- when
+    clicked, destroys itself.\xA8;\n        crank:0;\n        coin:2;\n        symbol:temporary
+    money;\n        pack:{\n            0:coin;\n        };\n        tags:{\n           
+    0:temporary money;\n        };\n        packTexture:temporary money;\n       
+    rarity:3;\n        behaviours:{\n            preTurn:{\n            };\n           
+    turn:{\n                0(specialBehaviour):{\n                    name:temporary
+    money behaviour;\n                    isActive:True;\n                    triggerAnim:True;\n                   
+    isTerrain:False;\n                    Name:destroy;\n                    adjacencyRequirement:True;\n                   
+    var1:0;\n                    var2:null;\n                };\n            };\n           
+    postTurn:{\n            };\n        };\n        conductive:False;\n        electricGenerator:False;\n       
+    electricBehaviours:{\n        };\n        coinsOnSpawn:0;\n        cranksOnSpawn:0;\n       
+    spawnBehaviours:{\n        };\n        coinOnDestroy:0;\n        deathBehaviours:{\n       
+    };\n        rotation:0;\n    };\n    24:null;\n    25:null;\n    26:null;\n   
+    27:null;\n    28:null;\n    29:null;\n};\nterrains:{\n    0:null;\n    1:null;\n   
+    2:null;\n    3:null;\n    4:null;\n    5:null;\n    6:null;\n    7:null;\n   
+    8:null;\n    9:null;\n    10:null;\n    11:null;\n    12:null;\n    13:null;\n   
+    14:null;\n    15:null;\n    16:null;\n    17:null;\n    18:null;\n    19:null;\n   
+    20:null;\n    21:null;\n    22:null;\n    23:null;\n    24:null;\n    25:null;\n   
+    26:null;\n    27:null;\n    28:null;\n    29:null;\n};\nproposal:{\n    0:{\n       
+    name:polymorph;\n        description:^* Is considered by other components as
+    anything. \xA8;\n        crank:0;\n        coin:0;\n        symbol:polymorph;\n       
+    pack:{\n            0:animal;\n            1:casino;\n            2:coin;\n           
+    3:component;\n            4:electric;\n            5:fruits;\n            6:games;\n           
+    7:industrial;\n            8:math;\n            9:mechanic;\n            10:null;\n           
+    11:stone;\n            12:terrain;\n            13:terrains;\n            14:time;\n       
+    };\n        tags:{\n            0:polymorph;\n        };\n        packTexture:polymorph;\n       
+    rarity:5;\n        behaviours:{\n            preTurn:{\n            };\n           
+    turn:{\n            };\n            postTurn:{\n            };\n        };\n       
+    conductive:False;\n        electricGenerator:False;\n        electricBehaviours:{\n       
+    };\n        coinsOnSpawn:0;\n        cranksOnSpawn:0;\n        spawnBehaviours:{\n       
+    };\n        coinOnDestroy:0;\n        deathBehaviours:{\n        };\n       
+    rotation:0;\n    };\n    1:{\n        name:al capone;\n        description:^*
+    All adjacent thiefs multiply their adjacent coins by half of their base multiplier
+    (0.5 -> 0.25, 0.25 -> 0.125 ...)\xA8;\n        crank:0;\n        coin:2;\n       
+    symbol:al capone;\n        pack:{\n            0:coin;\n        };\n        tags:{\n           
+    0:al capone;\n        };\n        packTexture:al capone;\n        rarity:3;\n       
+    behaviours:{\n            preTurn:{\n            };\n            turn:{\n           
+    };\n            postTurn:{\n            };\n        };\n        conductive:False;\n       
+    electricGenerator:False;\n        electricBehaviours:{\n        };\n        coinsOnSpawn:0;\n       
+    cranksOnSpawn:0;\n        spawnBehaviours:{\n        };\n        coinOnDestroy:0;\n       
+    deathBehaviours:{\n        };\n        rotation:0;\n    };\n    2:{\n       
+    name:mover orb;\n        description:^- When activated, destroys itself.\n- When
+    destroyed, you gain a mover.\xA8;\n        crank:0;\n        coin:0;\n       
+    symbol:mover orb;\n        pack:{\n            0:animal;\n            1:casino;\n           
+    2:coin;\n            3:component;\n            4:electric;\n            5:fruits;\n           
+    6:games;\n            7:industrial;\n            8:math;\n            9:mechanic;\n           
+    10:null;\n            11:stone;\n            12:terrain;\n            13:terrains;\n           
+    14:time;\n        };\n        tags:{\n            0:mover orb;\n            1:mover
+    orb;\n        };\n        packTexture:mover orb;\n        rarity:0;\n       
+    behaviours:{\n            preTurn:{\n            };\n            turn:{\n               
+    0(killerBehaviour):{\n                    name:kamikaze;\n                   
+    isActive:True;\n                    triggerAnim:False;\n                    isTerrain:False;\n                   
+    attack:{\n                        0:0 0;\n                    };\n                   
+    targets:{\n                    };\n                };\n            };\n           
+    postTurn:{\n            };\n        };\n        conductive:False;\n        electricGenerator:False;\n       
+    electricBehaviours:{\n        };\n        coinsOnSpawn:0;\n        cranksOnSpawn:0;\n       
+    spawnBehaviours:{\n        };\n        coinOnDestroy:0;\n        deathBehaviours:{\n           
+    0(giveBehaviour):{\n                name:mover behaviour;\n                isActive:True;\n               
+    triggerAnim:False;\n                isTerrain:False;\n                cranks:0;\n               
+    rerolls:0;\n                removals:0;\n                movers:1;\n               
+    coins:0;\n                permanentCoins:0;\n                permanentCranks:0;\n           
+    };\n        };\n        rotation:0;\n    };\n}\n"

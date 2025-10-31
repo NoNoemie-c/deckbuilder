@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: monke
+  m_EditorClassIdentifier: 
+  name: monkey
+  description: '- When activated, all adjacent fruits are destroyed.'
+  coin: 2
+  symbol: {fileID: 21300000, guid: d6f81bfc80c894c9bb96d590a8a834cc, type: 3}
+  pack:
+  - fruits
+  - animal
+  packTexture: {fileID: 0}
+  tags:
+  - animal
+  rarity: 6
+  Behaviours:
+  - {fileID: 11400000, guid: e839b5e3c840a43d39a1c5940564f258, type: 2}
+  - {fileID: 11400000, guid: 887c10a8ae90546bc94491f4563c84d1, type: 2}
+  PreTurnBehaviours:
+  - {fileID: 11400000, guid: 0be1effd0b13a4650b84ba7a5d876831, type: 2}
+  PostTurnBehaviours:
+  - {fileID: 11400000, guid: 8685b35e0e53a42d0a4c15d3b45742a0, type: 2}
+  crank: 0
+  strength: 5
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: divorced
+  m_EditorClassIdentifier: 
+  name: divorced
+  description: '- When spawned, if there is no adjacent divorced, spawns a divorced
+    in an adjacent empty space.
+
+    - When activated, gives +3 per space between
+    this component and "adjacent" divorced.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 697d5a31799af4e60aeaebdeb0cdfe19, type: 3}
+  pack:
+  - null
+  tags:
+  - divorced
+  rarity: 3
+  Behaviours:
+  - {fileID: 11400000, guid: 9c67fefb4fb0a46769754dbd2fd6e76e, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours:
+  - {fileID: 11400000, guid: 03ad27015e75a43f089e576d4ac34622, type: 2}
+  coinOnDestroy: 0
+  deathBehaviours: []

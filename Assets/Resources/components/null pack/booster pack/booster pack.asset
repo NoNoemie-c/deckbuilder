@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: booster pack
+  m_EditorClassIdentifier: 
+  Lock: 1
+  name: booster pack
+  description: '- When activated, destroys itself.
+
+    - When destroyed, spawns
+    8 random components in adjacent empty spaces.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: f3f99213014714317bf77bb0defba359, type: 3}
+  pack:
+  - animal
+  - casino
+  - coin
+  - component
+  - electric
+  - fruits
+  - games
+  - industrial
+  - math
+  - mechanic
+  - null
+  - stone
+  - terrain
+  - terrains
+  - time
+  packTexture: {fileID: 21300000, guid: c81a8d32a72254e39bf561d778f18fef, type: 3}
+  tags: []
+  rarity: 3
+  Behaviours:
+  - {fileID: 11400000, guid: f066aab44ea4545bead8b6a6818ada0d, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  strength: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours:
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}
+  - {fileID: 11400000, guid: b9efdcb098a4b49788d0f5eef5c09910, type: 2}

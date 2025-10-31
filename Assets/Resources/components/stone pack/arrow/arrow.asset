@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: arrow
+  m_EditorClassIdentifier: 
+  Lock: 1
+  name: arrow
+  description: '- When activated, all components in this component''s direction give
+    x2.
+
+    - When clicked, the direction is randomised.'
+  coin: 1
+  symbol: {fileID: 21300000, guid: dfc0f0024bcdf49fcb461aacc1dbd912, type: 3}
+  pack:
+  - animal
+  - casino
+  - coin
+  - component
+  - electric
+  - fruits
+  - games
+  - industrial
+  - math
+  - mechanic
+  - null
+  - stone
+  - terrain
+  - terrains
+  - time
+  packTexture: {fileID: 21300000, guid: 8f9eb3ae0da034c6caae5819b8f749bb, type: 3}
+  tags: []
+  rarity: 2
+  Behaviours:
+  - {fileID: 11400000, guid: abb47f316e48a44ea985705f8db0b8ab, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 1
+  strength: 0
+  conductive: 1
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

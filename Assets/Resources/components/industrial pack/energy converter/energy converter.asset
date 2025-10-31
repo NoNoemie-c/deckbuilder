@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: energy converter
+  m_EditorClassIdentifier: 
+  name: energy converter
+  description: '- When activated, all adjacent cores are destroyed. Produces +2 cranks
+    per core destroyed this way.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: e45121ff52ca246538fab74efbb28c8f, type: 3}
+  pack:
+  - mechanic
+  tags: []
+  rarity: 3
+  Behaviours:
+  - {fileID: 11400000, guid: 45a00da369e1441fb9a04945b8972c47, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

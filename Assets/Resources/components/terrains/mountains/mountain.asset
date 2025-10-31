@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84d70a7826db4bc390773c7d0c9dfc7, type: 3}
+  m_Name: mountain
+  m_EditorClassIdentifier: 
+  name: mountain
+  description: '* Iremovable.
+
+    * Non-superposable.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: afdb59193130f4054895540eebdd1afe, type: 3}
+  pack: []
+  tags: []
+  rarity: 0
+  Behaviours: []
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []
+  probability: 0.1
+  removable: 0
+  superposable: 0
+  localMultiplier: 1
+  color: {r: 0.7019608, g: 0.7019608, b: 0.7019608, a: 0.39215687}

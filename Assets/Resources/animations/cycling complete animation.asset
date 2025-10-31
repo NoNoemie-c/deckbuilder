@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28deb2b640d684d1dbc874983af1004f, type: 3}
+  m_Name: cycling complete animation
+  m_EditorClassIdentifier: 
+  sound: {fileID: 11400000, guid: 0551bf70dcf524da2bb4fde9aef087dd, type: 2}
+  xSizeDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  xSizeCoef: 0
+  ySizeDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ySizeCoef: 0
+  xPositionDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  xPositionCoef: 0
+  yPositionDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yPositionCoef: 0
+  rotationDistorsion:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationCoef: 0
+  RColorDistorsion:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.276361
+      outSlope: 3.276361
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.03407407
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RColorCoef: 1
+  GColorCoef: 1
+  BColorCoef: 1
+  AColorDistorsion:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.276361
+      outSlope: 3.276361
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.03407407
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AColorCoef: 1
+  reverse: 1
+  targetImages: 1024
+  clock: 2
+  currentTime: 1
+  previousTime: 0.6666667

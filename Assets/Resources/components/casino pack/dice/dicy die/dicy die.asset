@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: dicy die
+  m_EditorClassIdentifier: 
+  name: dicy die
+  description: '- When activated, gives +{the sum of the adjacent dices'' faces}.
+    (doubles count multiple times).
+
+    - When clicked and spawned, a random face
+    is picked in [1, 1, 1, 1, 6, 6].'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 77d5419bd6237414cb173111861a3714, type: 3}
+  pack:
+  - electric
+  - casino
+  tags:
+  - die
+  rarity: 1
+  Behaviours:
+  - {fileID: 11400000, guid: 08dac9cdb51c8440a929041f357e10d2, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 1
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours:
+  - {fileID: 11400000, guid: 08dac9cdb51c8440a929041f357e10d2, type: 2}
+  coinOnDestroy: 0
+  deathBehaviours: []

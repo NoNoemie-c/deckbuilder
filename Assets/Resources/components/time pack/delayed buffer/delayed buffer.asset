@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: delayed buffer
+  m_EditorClassIdentifier: 
+  name: delayed buffer
+  description: '- When activated, if this component gave more than its coin production
+    (if it was buffed) at the previous turn, all adjacent components give x2.'
+  coin: 0
+  symbol: {fileID: 21300000, guid: 0a52fd769e8f04dff98216b45dceaa46, type: 3}
+  pack:
+  - math
+  - time
+  tags: []
+  rarity: 2
+  Behaviours:
+  - {fileID: 11400000, guid: 33604c22c19884fc2b232e46794589eb, type: 2}
+  - {fileID: 11400000, guid: f5db2d89749e7473586983b3d064c4dc, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

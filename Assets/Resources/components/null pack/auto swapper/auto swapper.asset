@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: auto swapper
+  m_EditorClassIdentifier: 
+  name: auto swapper
+  description: "- When activated, the component one space in this direction exchanges
+    places with the one in the opposite direction.\n- When clicked,  rotates by 90\xB0
+    clockwise, and can be clicked again."
+  coin: 1
+  symbol: {fileID: 21300000, guid: 7856fff24277c4933bc6cb22d261a30f, type: 3}
+  pack:
+  - null
+  tags: []
+  rarity: 2
+  Behaviours:
+  - {fileID: 11400000, guid: 0c27d2d9161574f118a1fb6b32c3c51f, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 1
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: plug
+  m_EditorClassIdentifier: 
+  name: plug
+  description: When activated, if powered, gives +7.
+  coin: 1
+  symbol: {fileID: 21300000, guid: edbaee4dc60ee4a57a42065b81982f2c, type: 3}
+  pack:
+  - electric
+  packTexture: {fileID: 0}
+  tags: []
+  rarity: 0
+  Behaviours: []
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  strength: 0
+  conductive: 1
+  electricGenerator: 0
+  electricBehaviours:
+  - {fileID: 11400000, guid: ccf08923e697248309aa5e84b6e15be0, type: 2}
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

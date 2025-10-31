@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: roulette
+  m_EditorClassIdentifier: 
+  name: roulette
+  description: '- When activated, produces +{random between 1 and 5 included} cranks.'
+  coin: 1
+  symbol: {fileID: 21300000, guid: 879011e52f6a34208b6c6f25e6ca0735, type: 3}
+  pack:
+  - mechanic
+  tags: []
+  rarity: 0
+  Behaviours:
+  - {fileID: 11400000, guid: dea0de8814d2f42479cca7833c80e5bd, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 69
+  conductive: 1
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

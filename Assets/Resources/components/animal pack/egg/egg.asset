@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: egg
+  m_EditorClassIdentifier: 
+  name: egg
+  description: "- When activated, its cycle advances of one turn. \n- (0 / 3) : it
+    destroys itself, spawning a random animal. (if it is destroyed by other means,
+    no animal will spawn)"
+  coin: 1
+  symbol: {fileID: 21300000, guid: e77d11a4ad7a440378f499d003f20ece, type: 3}
+  pack: []
+  packTexture: {fileID: 0}
+  tags: []
+  rarity: 0
+  Behaviours:
+  - {fileID: 11400000, guid: 592f4c53c6080496786adea6badc23f0, type: 2}
+  - {fileID: 11400000, guid: 8546e9df690a04bc1b69cf10c9534468, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  strength: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []

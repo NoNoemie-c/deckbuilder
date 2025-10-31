@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: void fragment
+  m_EditorClassIdentifier: 
+  name: void fragment
+  description: "- When activated, destroys itself if there are 8 or more adjacent
+    components. \n- When destroyed, gives +1 per adjacent component."
+  coin: 0
+  symbol: {fileID: 21300000, guid: e3649c25aa57144d5a3ed21536311439, type: 3}
+  pack:
+  - null
+  tags: []
+  rarity: 1
+  Behaviours:
+  - {fileID: 11400000, guid: 09d81bc8d4cb348cab6cf6558817ad45, type: 2}
+  PreTurnBehaviours: []
+  PostTurnBehaviours: []
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours:
+  - {fileID: 11400000, guid: 0f2c02d3da0af4b978b3f09a4f42c19e, type: 2}

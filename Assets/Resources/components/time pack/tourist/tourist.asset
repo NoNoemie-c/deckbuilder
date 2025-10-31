@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c96718d91f144008dc7e20ec0da18b, type: 3}
+  m_Name: tourist
+  m_EditorClassIdentifier: 
+  name: tourist
+  description: '- At the end of the turn, gives +{5 x (the absolute value of) the
+    difference between the amount of adjacent components at the previous turn, and
+    the current one}. '
+  coin: 0
+  symbol: {fileID: 21300000, guid: 64502ea1b68e34afa8b2f23770211199, type: 3}
+  pack: []
+  tags: []
+  rarity: 3
+  Behaviours: []
+  PreTurnBehaviours: []
+  PostTurnBehaviours:
+  - {fileID: 11400000, guid: b95b77c5e503c47b68e697412bc7e58b, type: 2}
+  crank: 0
+  conductive: 0
+  electricGenerator: 0
+  electricBehaviours: []
+  coinsOnSpawn: 0
+  cranksOnSpawn: 0
+  spawnBehaviours: []
+  coinOnDestroy: 0
+  deathBehaviours: []
